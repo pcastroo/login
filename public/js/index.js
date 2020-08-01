@@ -13,8 +13,7 @@ function verificat(){
     return false;
   }
   else if (document.getElementById('exampleInputEmail1').value == "admim@admim.com" && document.getElementById('exampleInputPassword1').value == "admim"){
-  	alert('yeah')
-  	window.open('/home/castro/git/negaodabl/index.html')
+  	alert('login completed')
   	return true;
   }
 }
@@ -56,5 +55,5 @@ function verificaCr(){
 }
 
 function toLogin(){
-	window.open('/home/castro/git/login/public/index.html')
+	window.open('/login')
 }
